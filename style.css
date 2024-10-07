@@ -1,0 +1,27 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;   /* Ensures padding and border are included in the element's total width and height */
+}
+
+html, body {
+    height: 100%; /* Sets height to 100% for the full viewport */
+    
+}
+
+.hero {
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers the image horizontally */
+    align-items: flex-start; /* Aligns the image to the top */
+  
+}
+
+.full-screen-image {
+    max-width: calc(100% - 40px); /* Ensures the image does not exceed the viewport width minus padding */
+    height: auto; /* Keeps the image's aspect ratio */
+    object-fit: contain; /* Ensures the image fits within the container without cropping */
+}
