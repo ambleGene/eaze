@@ -25,3 +25,113 @@ html, body {
     height: auto; /* Keeps the image's aspect ratio */
     object-fit: contain; /* Ensures the image fits within the container without cropping */
 }
+
+
+}
+
+
+/* General page styling */
+body {
+    font-family: Onest, Onest;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light background color */
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 150px); /* Adjust height to ensure centering */
+}
+
+/* Styling the policy wrapper (centered box) */
+.policy-wrapper {
+    background-color: #ffffff;
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    line-height: 1.6;
+    text-align: left;
+}
+
+.policy-wrapper h1 {
+    text-align: center;
+    color: #333;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.policy-wrapper h4 {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.policy-wrapper h5 {
+    text-align: left;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 2px;
+}
+
+.policy-wrapper p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Privacy Policy Link Styling */
+.privacy-policy-link {
+    
+position: fixed; /* Positioning relative to the image container */
+    top: 20px;       /* Adjust the distance from the bottom as needed */
+    right: 100px;     
+    font-size: 16px;
+    color: #333;        /* Text color */
+    background-color: transparent; /* No background color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none;       /* No border */
+    border-radius: 5px; /* Optional: Rounded corners */
+    cursor: pointer;    /* Pointer cursor on hover */
+    text-decoration: none; /* No underline */
+    
+}
